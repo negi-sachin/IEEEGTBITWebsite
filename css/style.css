@@ -1120,14 +1120,21 @@ a.btn.blue,
     color: #fff;
     line-height: 20px;
 }
-
+#footer section{
+display:flex;
+flex-flow: column nowrap;
+justify-content: center;
+}
 #footer article {
-    float: left;
-    width: 25%;
-    padding: 0 15px;
+    
+
+    min-width: 60%;
+    padding: 0 10px;
+    margin:15px auto;
 }
 
 #footer h3 {
+    text-align: center;
     color: #fff;
     font-size: 48px;
     font-family: 'BebasNeue';
@@ -1699,8 +1706,9 @@ a.btn.blue,
     #footer {
         padding: 50px 0 0 0;
     }
+    
     #footer article {
-        width: 50%;
+        min-width: 60%;
         padding-bottom: 20px;
     }
     #footer article:nth-child(2n+1) {
