@@ -1575,7 +1575,7 @@ a.btn.blue,
 /* Media
 ------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1460px) {
     .container {
         width: 100%;
     }
@@ -1589,6 +1589,15 @@ a.btn.blue,
     }
     #menu li {
         padding: 0 10px;
+    }
+
+    .gallery {
+        
+        width:90vw !important;
+        
+    }
+    .gallery li{
+        margin-left:50px;
     }
     .slider {
         height: 400px;
@@ -1857,6 +1866,10 @@ a.btn.blue,
     .widget.list .btn-holder {
         text-align: left;
     }
+
+    .gallery{
+        float: center !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1911,6 +1924,13 @@ a.btn.blue,
         float: left;
         clear: left;
     }
+    .gallery{
+        
+        width:90vw !important;
+        
+        float: right !important;
+    }
+    
     .slider,
     .slider .bx-viewport,
     .slider .bx-viewport,
@@ -2030,4 +2050,5 @@ a.btn.blue,
     #footer article {
         padding-bottom: 30px;
     }
+
 }
